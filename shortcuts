@@ -73,3 +73,6 @@ var catName2 = cat["name"];
 
 var catNameVariable = "name";
 cat[catNameVariable];
+
+cat.newProp = 'newproperty';
+delete cat.newProp;
