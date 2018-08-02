@@ -42,4 +42,8 @@ switch(num) {
   case valueN:
     statementN;
     break;
+...
+  default:
+    defaultStatement;
+    break;
 }
