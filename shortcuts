@@ -67,3 +67,6 @@ var cat = {
   "tails": 1,
   "enemies": ["Water", "Dogs"]
 };
+
+var catName1 = cat.name;
+var catName2 = cat["name"];
