@@ -2,7 +2,7 @@
 2 Determine the type of a variable 
 3 If, else if, else 
 4 Switch statement
-
+5 Objects 
 
 
 
@@ -57,3 +57,13 @@ switch(val) {
   case 4:
     result = "4 alone";
 }
+
+
+
+5 Objects 
+var cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
