@@ -1,7 +1,7 @@
 1 Creating a literal function
 2 Determine the type of a variable 
 3 If, else if, else 
-
+4 Switch statement
 
 
 
@@ -27,4 +27,19 @@ if (num > 15) {
   return "Smaller than 5";
 } else {
   return "Between 5 and 15";
+}
+
+
+4 Switch statement
+switch(num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  case valueN:
+    statementN;
+    break;
 }
