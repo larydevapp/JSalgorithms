@@ -10,6 +10,7 @@
 10 Multi dimensional arrays
 11 Do while loop 
 12 Ternary operator 
+13 ES6
 
 
 
@@ -169,3 +170,22 @@ function findGreater(a, b) {
 function findGreaterOrEqual(a, b) {
   return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
 }
+
+13 ES6 
+    13.1 Arrow functions
+        const myFunc = function() {
+        const myVar = "value";
+        return myVar;
+        }
+
+        const myFunc = () => {
+        const myVar = "value";
+        return myVar;
+        }
+
+        const myConcat = (arr1, arr2) => {
+        "use strict";
+        return arr1.concat(arr2);
+        };
+        // test your code
+        console.log(myConcat([1, 2], [3, 4, 5]));
