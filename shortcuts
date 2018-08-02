@@ -5,7 +5,7 @@
 5 Objects 
 6 Using objects for Lookup
 7 Testing objects for properties
-
+8 While loop
 
 
 
@@ -123,3 +123,12 @@ function checkObj(checkProp) {
 
 // Test your code by modifying these values
 checkObj("gift");
+
+
+8 While loop
+var ourArray = [];
+var i = 0;
+while(i < 5) {
+  ourArray.push(i);
+  i++;
+}
