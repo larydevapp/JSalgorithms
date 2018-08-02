@@ -9,6 +9,7 @@
 9 For loop 
 10 Multi dimensional arrays
 11 Do while loop 
+12 Ternary operator 
 
 
 
@@ -160,3 +161,11 @@ do {
   ourArray.push(i);
   i++;
 } while (i < 5);
+
+12 Ternary operator 
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater";
+}
+function findGreaterOrEqual(a, b) {
+  return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
+}
