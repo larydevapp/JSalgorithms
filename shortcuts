@@ -70,3 +70,6 @@ var cat = {
 
 var catName1 = cat.name;
 var catName2 = cat["name"];
+
+var catNameVariable = "name";
+cat[catNameVariable];
