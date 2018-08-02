@@ -3,6 +3,7 @@
 3 If, else if, else 
 4 Switch statement
 5 Objects 
+6 Using objects for Lookup
 
 
 
@@ -76,3 +77,26 @@ cat[catNameVariable];
 
 cat.newProp = 'newproperty';
 delete cat.newProp;
+
+
+6 Using Objects For Lookup 
+// Setup
+function phoneticLookup(val) {
+
+  // Only change code below this line
+var lookup = {
+  "alpha": "Adams",
+  "bravo":"Boston",
+  "charlie":"Chicago",
+  "delta":"Denver",
+  "echo": "Easy",
+  "foxtrot":"Frank"
+}
+var result = lookup[val];
+
+  // Only change code above this line
+  return result;
+}
+
+// Change this value to test
+phoneticLookup("charlie");
