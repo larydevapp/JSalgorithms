@@ -1,5 +1,5 @@
 1 Creating a literal function
-
+2 Determine the type of a variable 
 
 
 
@@ -18,4 +18,9 @@
 function testFun(param1, param2) {
   console.log(param1, param2);
 }
+
+
+2 Determine the type of a variable 
+typeof 3
+typeof '3'
 
